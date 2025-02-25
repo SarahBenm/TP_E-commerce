@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique en Ligne</title>
+    <script src="https://js.stripe.com/v3/"></script>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .product-item { margin: 10px; padding: 10px; border: 1px solid #ddd; }
+        #cart { border: 1px solid #ccc; padding: 15px; margin: 20px 0; }
+        #payment-form { margin: 20px 0; padding: 20px; border: 1px solid #eee; }
+        #card-element { padding: 10px; border: 1px solid #ccc; margin: 10px 0; }
+        #card-errors { color: red; margin: 10px 0; }
+        button { background: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+        button:hover { background: #45a049; }
+        .error-message { color: #721c24; background: #f8d7da; padding: 15px; margin: 20px; border: 1px solid #f5c6cb; }
+    </style>
+</head>
+<body>
+    <h1>Boutique en Ligne</h1>
+    <div id="products"></div>
+    <div id="cart"></div>
+    <form id="payment-form">
+        <div id="card-element"></div>
+        <div id="card-errors" role="alert"></div>
+    </form>
+    <button id="checkout">Payer</button>
+    <script src="/app.js"></script>
+</body>
+</html>
