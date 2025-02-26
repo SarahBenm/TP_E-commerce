@@ -79,17 +79,28 @@ git clone git@github.com:SarahBenm/TP_E-commerce.git
 ## projet structure
 
 ecommerce-store/
+
 ├── backend/
-│   ├── app.py             # Flask server
+
+│   ├── app.py    # Flask server
+
 │   ├── requirements.txt   # Python dependencies
+
 │   └── database.db        # SQLite database
+
 └── frontend/
-    ├── server.js          # Node.js server
-    ├── package.json       # Frontend dependencies
-    └── public/
-        ├── app.js         # Client-side logic
-        └── views/
-            └── index.html # Store interface
+
+│   ├── server.js          # Node.js server
+    
+│   ├── package.json       # Frontend dependencies
+
+│   └── public/
+    
+│       ├── app.js         # Client-side logic
+        
+│       └── views/
+        
+│           └── index.html # Store interface
 
 ## Troubleshooting
 
