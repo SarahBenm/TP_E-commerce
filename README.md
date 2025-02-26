@@ -43,22 +43,26 @@ git clone https://github.com/your-username/ecommerce-store.git
 cd ecommerce-store
 
 2. Set up backend:
-cd backend
-pip install -r requirements.txt
 
-3. set up frontend
-cd ../frontend
-npm install
+- cd backend
+- pip install -r requirements.txt
+
+4. set up frontend
+   
+- cd ../frontend
+- npm install
 
 ## Configuration
 
 1. start backend server
-cd backend
-python app.py
+   
+- cd ../backend
+- python app.py
 
-2. start frontend server
-cd ../frontend
-node server.js
+3. start frontend server
+
+- cd ../frontend
+- node server.js
 
 
 ## Usage:
