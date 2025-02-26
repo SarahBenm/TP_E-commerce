@@ -39,8 +39,7 @@ A complete e-commerce solution with Stripe payment integration and automated PDF
 ### Installation
 1. Clone the repository:
 
-git clone https://github.com/your-username/ecommerce-store.git
-cd ecommerce-store
+git clone https://github.com/your-username/TP_E-commerce.git
 
 2. Set up backend:
 
